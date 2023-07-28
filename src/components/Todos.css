@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+}
+.todos-bg-container {
+  height: 100vh;
+  background-color: #080503;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.todos-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #db9107;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+  padding: 10px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.create-task-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #db9107;
+}
+
+.create-task-heading-subpart {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #db9107;
+}
+
+.todo-items-heading-subpart {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.todo-user-description-input {
+  background-color: white;
+  width: 100%;
+  height: 40%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: #db9107;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.label-container {
+  background-color: #302f2c;
+  color: #ffffff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #db9107;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.todo-description {
+  background-color: #ffffff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #db9107;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-bottomright: 4px;
+  padding: 10px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon {
+  padding: 5px;
+  width: 20px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+@media (max-width: 767px) {
+  .todos-bg-container {
+    height: 100vh;
+    background-color: #080503;
+    background-size: cover;
+    padding: 30px;
+    margin: 0px;
+  }
+  .heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .todos-heading {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #db9107;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .create-task-heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: #db9107;
+  }
+
+  .create-task-heading-subpart {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .todo-items-heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: #db9107;
+  }
+
+  .todo-items-heading-subpart {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .todo-items-container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .todo-item-container {
+    margin-top: 15px;
+  }
+
+  .todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .todo-user-description-input {
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .button {
+    color: white;
+    background-color: #db9107;
+    font-family: 'Roboto';
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .label-container {
+    background-color: #302f2c;
+    color: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #db9107;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+  }
+
+  .todo-description {
+    background-color: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #db9107;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    padding: 10px;
+  }
+
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+  }
+
+  .checkbox-label {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+
+  .delete-icon {
+    padding: 5px;
+    width: 20px;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+}
